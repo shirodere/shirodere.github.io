@@ -1,0 +1,115 @@
+.header {
+	background-color: black;
+	height: 70px;
+}
+.axit, .menu {
+	margin: 20px;
+}
+.button {
+	border: none;
+	background-color: black;
+	color: #9a9a9a
+}
+.button:hover{color: #fff;}
+.button:focus{border: none; outline: none;}
+.button:active{color:#fff;  outline: none;}
+
+.main {
+	height: 640px;
+	background-color: #9a9a9a;
+}
+
+.logo {
+	margin-top: 110px;
+}
+
+@font-face {
+	font-family: Raleway-Black
+	src: url(fonts/Raleway-Black.ttf);
+}
+
+.lorem {
+	display: inline-block;
+	font-size: 16px;
+	color:#d5d5d5;
+	font-family: Raleway-Black, sans-serif;
+}
+
+h1{
+	font-size: 36px;
+	color: #fff;
+	margin-top: 28px;
+}
+
+.divide {
+	margin: 30px auto;
+}
+
+.btn-download {
+	margin-top: 40px;
+	color: #fff;
+	border-radius: 0px;
+	border: 3px solid #fff;
+	padding: 8px 32px;
+}
+.btn-download:hover{background-color:#737373; color: #fff;}
+.btn-download:focus{box-shadow: none;}
+.btn-download:active{opacity: 0.6;}
+
+.form {
+	height: 255px;
+	background-color: #fff;
+	padding: 35px 9%;
+}
+
+strong {
+	color: #ff8b38;
+}
+
+.form-header {
+	padding: 10px;
+	margin-bottom: 0px;
+	height: 54px;
+	background-color:#f5f5f5;
+	margin-top: 140px;
+	font-weight: 900;
+	font-size:20px;
+	border-radius: 3px 3px 0px 0px;
+}
+
+.form-control {
+	border: none;
+	border-bottom: 1px solid #d6d6d6;
+	border-radius: 0;
+	width: 286px;
+	height: 30px;
+	margin-bottom: 35px;
+	font-size: 14px;
+}
+.form-control:focus{box-shadow: none;}
+
+.form-btn {
+	background-color: #ff9b51;
+	color: #fff;
+	border-radius: 0px 0px 3px 3px;
+	height: 54px;
+	font-size: 15px;
+}
+.form-btn:focus {box-shadow: none;}
+.form-btn:active{
+	padding: calc(.25em + 1px) .5em calc(.25em - 1px);
+	background-color:#ff8b38;
+	transition: none;
+}
+h3 {
+	font-weight: 900;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.bottom-text {
+	color:#c4c4c4;
+	font-family: Raleway-Black, sans-serif;
+	font-size:14px;
+	margin-bottom: 20px;
+}
